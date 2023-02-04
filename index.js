@@ -20,19 +20,62 @@
 
         
         function playmusic(){
-            let audio1 = new Audio("one.mpeg");
+            let audio1 = new Audio("1.mp3");
             audio1.play()
         }
         function playmusic2(){
 
-            let audio2 = new Audio("two.mpeg");
+            let audio2 = new Audio("2.mp3");
             audio2.play()
         }
         function playmusic3(){
 
-            let audio3 = new Audio("three.mpeg");
+            let audio3 = new Audio("3.mp3");
             audio3.play()
         }
+        function playmusic4(){
+
+            let audio4 = new Audio("4.mp3");
+            audio4.play()
+        }
+        function playmusic5(){
+
+            let audio5 = new Audio("5.mp3");
+            audio5.play()
+        }
+        function playmusic6(){
+
+            let audio6 = new Audio("6.mp3");
+            audio6.play()
+        }
+        function playmusic7(){
+
+            let audio7 = new Audio("7.mp3");
+            audio7.play()
+        }
+        function playmusic8(){
+
+            let audio8 = new Audio("8.mp3");
+            audio8.play()
+        }
+        function playmusic9(){
+
+            let audio9 = new Audio("9.mp3");
+            audio9.play()
+        }
+        function playmusic0(){
+
+            let audio0 = new Audio("0.mp3");
+            audio0.play()
+        }
+
+
+
+
+
+
+
+
         function writediv1(){
             details.querySelector("span").innerHTML="One ";
         }
@@ -68,24 +111,33 @@
          
         play.addEventListener("click", playmusic)
         play.addEventListener("click", writediv1)
+
         play2.addEventListener("click", playmusic2)
         play2.addEventListener("click", writediv2)
+
         play3.addEventListener("click", playmusic3)
         play3.addEventListener("click", writediv3)
 
         play4.addEventListener("click", writediv4)
+        play4.addEventListener("click", playmusic4)
 
         play5.addEventListener("click", writediv5)
-
+        play5.addEventListener("click", playmusic5)
+        
         play6.addEventListener("click", writediv6)
+        play6.addEventListener("click", playmusic6)
 
         play7.addEventListener("click", writediv7)
+        play7.addEventListener("click", playmusic7)
 
         play8.addEventListener("click", writediv8)
+        play8.addEventListener("click", playmusic8)
 
         play9.addEventListener("click", writediv9)
+        play9.addEventListener("click", playmusic9)
 
         play0.addEventListener("click", writediv0)
+        play0.addEventListener("click", playmusic0)
 
         
         
