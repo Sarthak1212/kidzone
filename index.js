@@ -11,7 +11,7 @@
         let play0 = document.getElementById("zero");
 
         let details = document.getElementById("details");
-       
+        let dis = document.getElementById("dis");
 
 
 
@@ -78,33 +78,44 @@
 
         function writediv1(){
             details.querySelector("span").innerHTML="One ";
+            dis.innerHTML= "*";
         }
         function writediv2(){
             details.querySelector("span").innerHTML="Two ";
+            dis.innerHTML= "* *";
         }
         function writediv3(){
             details.querySelector("span").innerHTML="Three ";
+            dis.innerHTML= "* * *";
         }
         function writediv4(){
             details.querySelector("span").innerHTML="Four ";
+            dis.innerHTML= "* * * *";
         }
         function writediv5(){
             details.querySelector("span").innerHTML="Five ";
+            dis.innerHTML= "* * * * *";
         }
         function writediv6(){
             details.querySelector("span").innerHTML="Six ";
+            dis.innerHTML= "* * * * * *";
         }
         function writediv7(){
             details.querySelector("span").innerHTML="Seven ";
+            dis.innerHTML= "* * * * * * *";
         }
         function writediv8(){
             details.querySelector("span").innerHTML="Eight ";
+            dis.innerHTML= "* * * * * * * *";
         }
         function writediv9(){
             details.querySelector("span").innerHTML="Nine ";
+            dis.innerHTML= "* * * * * * * * *";
+
         }
         function writediv0(){
             details.querySelector("span").innerHTML="Zero ";
+            dis.innerHTML= "No stars for zero";
         }
 
      
