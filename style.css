@@ -161,5 +161,16 @@ button {
         border-style: solid;
         font-size: 50px;
 }
-
+span{
+    text-align: center;
+    position: absolute;
+    top:90px;
+    left:110px;
+    color:#e6415a;
+    font-size: 80px;
+    border: 5px;
+    background-color: #84e4df;
+    border-color: rgb(18, 146, 146);
+    border-style: solid;
+}
     
