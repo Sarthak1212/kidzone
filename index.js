@@ -34,34 +34,34 @@
             audio3.play()
         }
         function writediv1(){
-            details.innerHTML+="One ";
+            details.querySelector("span").innerHTML="One ";
         }
         function writediv2(){
-            details.innerHTML+="Two ";
+            details.querySelector("span").innerHTML="Two ";
         }
         function writediv3(){
-            details.innerHTML+="Three ";
+            details.querySelector("span").innerHTML="Three ";
         }
         function writediv4(){
-            details.innerHTML+="Four ";
+            details.querySelector("span").innerHTML="Four ";
         }
         function writediv5(){
-            details.innerHTML+="Five ";
+            details.querySelector("span").innerHTML="Five ";
         }
         function writediv6(){
-            details.innerHTML+="Six ";
+            details.querySelector("span").innerHTML="Six ";
         }
         function writediv7(){
-            details.innerHTML+="Seven ";
+            details.querySelector("span").innerHTML="Seven ";
         }
         function writediv8(){
-            details.innerHTML+="Eight ";
+            details.querySelector("span").innerHTML="Eight ";
         }
         function writediv9(){
-            details.innerHTML+="Nine ";
+            details.querySelector("span").innerHTML="Nine ";
         }
         function writediv0(){
-            details.innerHTML+="Zero ";
+            details.querySelector("span").innerHTML="Zero ";
         }
 
      
